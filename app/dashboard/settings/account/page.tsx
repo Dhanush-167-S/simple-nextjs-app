@@ -1,4 +1,13 @@
+"use client";
+import { useState } from "react";
 const Account = () => {
+  const [isUpdate, setIsUpdate] = useState(false);
+  const handleUpdate = () => {
+    setIsUpdate(true);
+    setTimeout(() => {
+      setIsUpdate(false);
+    }, 3000);
+  };
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50 p-8">
       <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-xl p-8">
@@ -72,6 +81,7 @@ const Account = () => {
             Cancel
           </button>
           <button
+            onClick={handleUpdate}
             className="px-6 py-2 text-white bg-blue-600 rounded-lg 
           hover:bg-blue-700 transition-colors"
           >

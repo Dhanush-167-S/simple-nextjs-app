@@ -10,7 +10,13 @@ const Account = () => {
   };
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50 p-8">
-      <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-xl p-8">
+      <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-xl p-8 relative">
+        {isUpdate && (
+          <div className="px-6 py-2 text-gray-700 bg-gray-300 rounded-lg absolute z-50 left-1/2 top-0 transform -translate-x-1/2 mt-2">
+            {" "}
+            <h1>Updated Successfully!</h1>
+          </div>
+        )}
         <h1 className="text-3xl font-bold text-gray-800 mb-8">
           Account Settings
         </h1>

@@ -18,8 +18,6 @@ Options used:
 
 Then move into the project directory:
 
-bash
-Copy code
 cd simple-dashboard
 
 First, run the development server:

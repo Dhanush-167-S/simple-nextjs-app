@@ -1,6 +1,26 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+# Simple Dashboard - Next.js App
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## 🛠️ Create the App
+
+To create this app, run:
+
+```bash
+npx create-next-app@latest simple-dashboard --ts 
+
+Options used:
+
+--ts: Enables TypeScript
+
+Then move into the project directory:
+
+bash
+Copy code
+cd simple-dashboard
 
 First, run the development server:
 
